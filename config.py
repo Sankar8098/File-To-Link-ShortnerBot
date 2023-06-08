@@ -3,7 +3,7 @@ import os
 
 
 class config(object):
-	API_ID = int(os.environ.get("API_ID", "6435225"))
+	API_ID = int(os.environ.get("API_ID", "64225"))
 	API_HASH = os.environ.get("API_HASH", "4e984ea35f854762dcde906dce426c2d")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5951446975:AAHomxCgmzt2HAyLF5K5E3nvoZGihYywY4Y")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "PyroStorageBot")
