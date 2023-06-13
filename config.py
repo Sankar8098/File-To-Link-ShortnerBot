@@ -11,5 +11,5 @@ class config(object):
 	SUPPORT_GROUP = os.environ.get("SUPPORT_CHAT", "TheDeadlyBots")
 	SUPPORT_CHANNEL = os.environ.get("SUPPORT_CHANNEL", "TheBotUpdates")
         BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
-        SHORTNER_SITE = os.environ.get("SHORTNER_SITE", "https://dalink.in")
+        SHORTNER_SITE = os.environ.get("SHORTNER_SITE", "dalink.in")
         API_KEY = os.environ.get("API_KEY", "8d8be4101ae30e933d02af13f18a2acaa8f4a97c")
